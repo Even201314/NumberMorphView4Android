@@ -1,5 +1,3 @@
-/gradlew
-/gradlew.bat
 /app/build
 /.gradle
 *.iml
