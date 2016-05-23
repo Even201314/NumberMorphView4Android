@@ -2,7 +2,6 @@
 /gradlew.bat
 /app/build
 /.gradle
-/.idea
 *.iml
 .gradle
 /local.properties
@@ -11,4 +10,3 @@
 .DS_Store
 /build
 /captures
-/gradle
