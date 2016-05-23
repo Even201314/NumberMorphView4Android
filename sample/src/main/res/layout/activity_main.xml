@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:even="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView"
+            android:layout_width="52dp"
+            android:layout_height="96dp"
+            even:numBackgroundColor="#B6B6B6"
+            even:numColor="#5D4037"
+            even:strokeCap="SQUARE"
+            even:strokeJoin="BEVEL" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView1"
+            android:layout_width="52dp"
+            android:layout_height="96dp"
+            android:layout_toEndOf="@id/numberMorphView"
+            android:layout_toRightOf="@id/numberMorphView"
+            even:numColor="#3F51B5"
+            even:strokeCap="ROUND"
+            even:strokeJoin="ROUND"
+            even:strokeWidth="5dp" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView2"
+            android:layout_width="52dp"
+            android:layout_height="96dp"
+            android:layout_toEndOf="@id/numberMorphView1"
+            android:layout_toRightOf="@id/numberMorphView1"
+            even:numBackgroundColor="#B6B6B6"
+            even:numColor="#00796B"
+            even:strokeCap="BUTT"
+            even:strokeJoin="MITER" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView3"
+            android:layout_width="52dp"
+            android:layout_height="96dp"
+            android:layout_toEndOf="@id/numberMorphView2"
+            android:layout_toRightOf="@id/numberMorphView2"
+            even:numColor="#FF4081" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView4"
+            android:layout_width="52dp"
+            android:layout_height="96dp"
+            android:layout_toEndOf="@id/numberMorphView3"
+            android:layout_toRightOf="@id/numberMorphView3"
+            even:numBackgroundColor="#B6B6B6"
+            even:numColor="#7C4DFF" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView5"
+            android:layout_width="52dp"
+            android:layout_height="96dp"
+            android:layout_toEndOf="@id/numberMorphView4"
+            android:layout_toRightOf="@id/numberMorphView4"
+            even:numColor="#E64A19" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView6"
+            android:layout_width="65dp"
+            android:layout_height="120dp"
+            even:numBackgroundColor="#B6B6B6"
+            even:numColor="#5D4037"
+            even:strokeCap="SQUARE"
+            even:strokeJoin="BEVEL" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView7"
+            android:layout_width="65dp"
+            android:layout_height="120dp"
+            android:layout_toEndOf="@id/numberMorphView6"
+            android:layout_toRightOf="@id/numberMorphView6"
+            even:numColor="#3F51B5"
+            even:strokeCap="ROUND"
+            even:strokeJoin="ROUND"
+            even:strokeWidth="5dp" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView8"
+            android:layout_width="65dp"
+            android:layout_height="120dp"
+            android:layout_toEndOf="@id/numberMorphView7"
+            android:layout_toRightOf="@id/numberMorphView7"
+            even:numBackgroundColor="#B6B6B6"
+            even:numColor="#00796B"
+            even:strokeCap="BUTT"
+            even:strokeJoin="MITER" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView9"
+            android:layout_width="65dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/numberMorphView6"
+            even:numColor="#FF4081" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView10"
+            android:layout_width="65dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/numberMorphView6"
+            android:layout_toEndOf="@id/numberMorphView9"
+            android:layout_toRightOf="@id/numberMorphView9"
+            even:numBackgroundColor="#B6B6B6"
+            even:numColor="#7C4DFF" />
+
+        <com.even.numbermorphview.TimerView
+            android:id="@+id/numberMorphView11"
+            android:layout_width="65dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/numberMorphView6"
+            android:layout_toEndOf="@id/numberMorphView10"
+            android:layout_toRightOf="@id/numberMorphView10"
+            even:numColor="#E64A19" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

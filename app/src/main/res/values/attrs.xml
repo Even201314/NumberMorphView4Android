@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberMorphView">
+        <attr name="numColor" format="color" />
+        <attr name="numBackgroundColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeCap" />
+        <attr name="strokeJoin" />
+    </declare-styleable>
+
+    <attr name="strokeCap" format="enum">
+        <enum name="BUTT" value="0" />
+        <enum name="ROUND" value="1" />
+        <enum name="SQUARE" value="2" />
+    </attr>
+
+    <attr name="strokeJoin" format="enum">
+        <enum name="MITER" value="0" />
+        <enum name="ROUND" value="1" />
+        <enum name="BEVEL" value="2" />
+    </attr>
+</resources>
