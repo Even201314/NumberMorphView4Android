@@ -1,17 +1,13 @@
 NumberMorphView4Android
-========
+======
+**NumberMorphView** for Android.<br/>
+Based on (https://github.com/me-abhinav/NumberMorphView)
 
-  NumberMorphView for Android.
-  
-  Based on (https://github.com/me-abhinav/NumberMorphView)
+#### Screenshot
+![](https://github.com/Even201314/NumberMorphView4Android/blob/master/raw/master/screenshot/sample.gif) 
 
-![](https://github.com/Even201314/NumberMorphView4Android/tree/master/raw/master/screenshot/sample.gif)  
 
-Download
---------
-
-Gradle:
-
+### Download
 First, Add it in your root build.gradle at the end of repositories:
 ```groovy
 allprojects {
@@ -26,6 +22,7 @@ Then,Add the dependency:
 compile 'com.github.Even201314:NumberMorphView4Android:1.2.0'
 ```
 
-Usage
---------
+## License 
 
+## Version 
+* Version 1.2.0
